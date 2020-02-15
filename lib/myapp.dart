@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: [
         const Locale("en", "US"),
-        const Locale("hi", "IN"),
+        const Locale("hi", "UR"),
       ],
       // initialRoute: UIData.notFoundRoute,
 

@@ -19,7 +19,7 @@ class MyAboutTile extends StatelessWidget {
           "Developed By Ali Shah",
         ),
         Text(
-          "MTechViral",
+          "Infusible Coder",
         ),
       ],
       applicationName: UIData.appName,

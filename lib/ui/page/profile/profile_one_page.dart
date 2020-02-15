@@ -106,7 +106,7 @@ class ProfileOnePage extends StatelessWidget {
                     ),
                     ProfileTile(
                       title: "YouTube",
-                      subtitle: "youtube.com/mtechviral",
+                      subtitle: "youtube.com/Infusible Coder",
                     ),
                   ],
                 ),
