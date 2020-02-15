@@ -16,7 +16,7 @@ class MyAboutTile extends StatelessWidget {
           height: 10.0,
         ),
         Text(
-          "Developed By Pawan Kumar",
+          "Developed By Ali Shah",
         ),
         Text(
           "MTechViral",

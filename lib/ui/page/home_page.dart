@@ -145,8 +145,8 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ProfileTile(
-                  title: "Pawan Kumar",
-                  subtitle: "mtechviral@gmail.com",
+                  title: "Ali Shah",
+                  subtitle: "infusiblecoder@gmail.com",
                   textColor: Colors.white,
                 ),
               )

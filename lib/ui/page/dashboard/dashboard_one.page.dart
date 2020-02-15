@@ -28,7 +28,7 @@ class DashboardOnePage extends StatelessWidget {
                         : null,
                   ),
                   new ProfileTile(
-                    title: "Hi, Pawan Kumar",
+                    title: "Hi, Ali Shah",
                     subtitle: "Welcome to the Flutter UIKit",
                     textColor: Colors.white,
                   ),

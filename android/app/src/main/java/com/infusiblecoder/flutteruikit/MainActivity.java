@@ -1,4 +1,4 @@
-package com.example.flutteruikit;
+package com.infusiblecoder.flutteruikit;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

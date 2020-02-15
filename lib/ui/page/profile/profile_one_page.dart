@@ -17,7 +17,7 @@ class ProfileOnePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 ProfileTile(
-                  title: "Pawan Kumar",
+                  title: "Ali Shah",
                   subtitle: "Developer",
                 ),
                 Padding(
@@ -125,7 +125,7 @@ class ProfileOnePage extends StatelessWidget {
                     ),
                     ProfileTile(
                       title: "Email",
-                      subtitle: "mtechviral@gmail.com",
+                      subtitle: "infusiblecoder@gmail.com",
                     ),
                     SizedBox(
                       height: 10.0,

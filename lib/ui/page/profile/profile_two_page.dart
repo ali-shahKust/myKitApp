@@ -29,7 +29,7 @@ class ProfileTwoPage extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "Pawan Kumar",
+                    "Ali Shah",
                     style: TextStyle(color: Colors.white, fontSize: 20.0),
                   ),
                   Text(
@@ -91,7 +91,7 @@ class ProfileTwoPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    "Pawan Kumar posted a photo",
+                    "Ali Shah posted a photo",
                   ),
                   SizedBox(
                     height: 5.0,

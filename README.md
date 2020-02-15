@@ -106,7 +106,7 @@ If you found this project useful, then please consider giving it a :star: on Git
 
 ## Project Created & Maintained By
 
-### Pawan Kumar
+### Ali Shah
 
 Google Developer Expert for Flutter. Passionate #Flutter, #Android Developer. #Entrepreneur #YouTuber
 
@@ -125,7 +125,7 @@ Google Developer Expert for Flutter. Passionate #Flutter, #Android Developer. #E
 ## License
 
 ```
-Copyright 2018 Pawan Kumar
+Copyright 2018 Ali Shah
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
