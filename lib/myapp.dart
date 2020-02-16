@@ -9,6 +9,7 @@ import 'package:flutter_uikit/ui/page/notfound/notfound_page.dart';
 import 'package:flutter_uikit/ui/page/payment/credit_card_page.dart';
 import 'package:flutter_uikit/ui/page/payment/payment_success_page.dart';
 import 'package:flutter_uikit/ui/page/profile/profile_one_page.dart';
+import 'package:flutter_uikit/ui/page/profile/profile_three_page.dart';
 import 'package:flutter_uikit/ui/page/profile/profile_two_page.dart';
 import 'package:flutter_uikit/ui/page/settings/settings_one_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/product_detail_page.dart';
@@ -46,6 +47,7 @@ class MyApp extends StatelessWidget {
         UIData.homeRoute: (BuildContext context) => HomePage(),
         UIData.profileOneRoute: (BuildContext context) => ProfileOnePage(),
         UIData.profileTwoRoute: (BuildContext context) => ProfileTwoPage(),
+        UIData.profileThreeRoute: (BuildContext context) => ProfilePage(),
         UIData.timelineOneRoute: (BuildContext context) => TimelineOnePage(),
         UIData.timelineTwoRoute: (BuildContext context) => TimelineTwoPage(),
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),

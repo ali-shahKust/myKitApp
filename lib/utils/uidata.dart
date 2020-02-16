@@ -8,6 +8,7 @@ class UIData {
   static const String homeRoute = "/home";
   static const String profileOneRoute = "/View Profile";
   static const String profileTwoRoute = "/Profile 2";
+  static const String profileThreeRoute = "/Profile 3";
   static const String notFoundRoute = "/No Search Result";
   static const String timelineOneRoute = "/Feed";
   static const String timelineTwoRoute = "/Tweets";

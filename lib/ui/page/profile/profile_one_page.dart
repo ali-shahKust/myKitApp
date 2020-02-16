@@ -41,7 +41,7 @@ class ProfileOnePage extends StatelessWidget {
                         ),
                         child: CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://avatars0.githubusercontent.com/u/12619420?s=460&v=4"),
+                              "https://avatars2.githubusercontent.com/u/44297283?s=460&v=4"),
                           foregroundColor: Colors.black,
                           radius: 30.0,
                         ),
