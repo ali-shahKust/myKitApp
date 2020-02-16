@@ -27,6 +27,8 @@ class UIData {
   static const String shoppingOneRoute = "/Shopping List";
   static const String shoppingTwoRoute = "/Shopping Details";
   static const String shoppingThreeRoute = "/Product Details";
+  static const String shoppingFourRoute = "/Shopping 4";
+
 
   //Payment Section
   static const String paymentOneRoute = "/Credit Card";
@@ -35,6 +37,8 @@ class UIData {
   //Login Section
   static const String loginOneRoute = "/Login With OTP";
   static const String loginTwoRoute = "/Login 2";
+  static const String signUpRoute = "/Sign Up";
+  static const String signUpTwoRoute = "/Sign Up 2";
 
   //Dashboard Section
   static const String dashboardOneRoute = "/Dashboard 1";

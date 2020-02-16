@@ -5,6 +5,8 @@ import 'package:flutter_uikit/ui/page/dashboard/dashboard_two_page.dart';
 import 'package:flutter_uikit/ui/page/home_page.dart';
 import 'package:flutter_uikit/ui/page/login/login_page.dart';
 import 'package:flutter_uikit/ui/page/login/login_two_page.dart';
+import 'package:flutter_uikit/ui/page/login/signup_page.dart';
+import 'package:flutter_uikit/ui/page/login/signup_page_two.dart';
 import 'package:flutter_uikit/ui/page/notfound/notfound_page.dart';
 import 'package:flutter_uikit/ui/page/payment/credit_card_page.dart';
 import 'package:flutter_uikit/ui/page/payment/payment_success_page.dart';
@@ -15,6 +17,7 @@ import 'package:flutter_uikit/ui/page/profile/profile_two_page.dart';
 import 'package:flutter_uikit/ui/page/settings/settings_one_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/product_detail_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_details_page.dart';
+import 'package:flutter_uikit/ui/page/shopping/shopping_four_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_one_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_one_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_two_page.dart';
@@ -46,23 +49,36 @@ class MyApp extends StatelessWidget {
       //routes
       routes: <String, WidgetBuilder>{
         UIData.homeRoute: (BuildContext context) => HomePage(),
+
+        //Profile
         UIData.profileOneRoute: (BuildContext context) => ProfileOnePage(),
         UIData.profileTwoRoute: (BuildContext context) => ProfileTwoPage(),
         UIData.profileThreeRoute: (BuildContext context) => ProfilePage(),
         UIData.profileFourRoute: (BuildContext context) => ProfileScreen4(),
+
+        //Timeline
         UIData.timelineOneRoute: (BuildContext context) => TimelineOnePage(),
         UIData.timelineTwoRoute: (BuildContext context) => TimelineTwoPage(),
+        //Search Result
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),
+        //Setting
         UIData.settingsOneRoute: (BuildContext context) => SettingsOnePage(),
+        //Shopping
         UIData.shoppingOneRoute: (BuildContext context) => ShoppingOnePage(),
-        UIData.shoppingTwoRoute: (BuildContext context) =>
-            ShoppingDetailsPage(),
-        UIData.shoppingThreeRoute: (BuildContext context) =>
-            ProductDetailPage(),
+        UIData.shoppingTwoRoute: (BuildContext context) => ShoppingDetailsPage(),
+        UIData.shoppingThreeRoute: (BuildContext context) => ProductDetailPage(),
+        UIData.shoppingFourRoute: (BuildContext context) => EcommercePage4(),
+        //Login
         UIData.loginOneRoute: (BuildContext context) => LoginPage(),
         UIData.loginTwoRoute: (BuildContext context) => LoginTwoPage(),
+        UIData.signUpRoute: (BuildContext context) => SignUp1(),
+        UIData.signUpTwoRoute: (BuildContext context) => SignupTwoPage(),
+
+        //Payment
         UIData.paymentOneRoute: (BuildContext context) => CreditCardPage(),
         UIData.paymentTwoRoute: (BuildContext context) => PaymentSuccessPage(),
+
+        //Dashboard
         UIData.dashboardOneRoute: (BuildContext context) => DashboardOnePage(),
         UIData.dashboardTwoRoute: (BuildContext context) => DashboardTwoPage(),
       },

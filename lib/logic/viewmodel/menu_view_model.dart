@@ -31,7 +31,7 @@ class MenuViewModel {
           menuColor: Color(0xffc7d8f4),
           icon: Icons.send,
           image: UIData.loginImage,
-          items: ["Login With OTP", "Login 2", "Sign Up", "Login 4"]),
+          items: ["Login With OTP", "Login 2", "Sign Up", "Sign Up 2"]),
       Menu(
           title: "Timeline",
           menuColor: Color(0xff7f5741),
