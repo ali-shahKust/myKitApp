@@ -19,6 +19,9 @@ class UIData {
   //Timeline Section
   static const String timelineOneRoute = "/Feed";
   static const String timelineTwoRoute = "/Tweets";
+  static const String timelineThreeRoute = "/Blog";
+  static const String timelineFourRoute = "/Timeline 4";
+
 
   //Setting Section
   static const String settingsOneRoute = "/Device Settings";

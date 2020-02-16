@@ -37,7 +37,7 @@ class MenuViewModel {
           menuColor: Color(0xff7f5741),
           icon: Icons.timeline,
           image: UIData.timelineImage,
-          items: ["Feed", "Tweets", "Timeline 3", "Timeline 4"]),
+          items: ["Feed", "Tweets", "Blog", "Timeline 4"]),
       Menu(
           title: "Dashboard",
           menuColor: Color(0xff261d33),

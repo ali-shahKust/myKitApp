@@ -20,6 +20,7 @@ import 'package:flutter_uikit/ui/page/shopping/shopping_details_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_four_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_one_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_one_page.dart';
+import 'package:flutter_uikit/ui/page/timeline/timeline_three_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_two_page.dart';
 import 'package:flutter_uikit/utils/translations.dart';
 import 'package:flutter_uikit/utils/uidata.dart';
@@ -59,6 +60,7 @@ class MyApp extends StatelessWidget {
         //Timeline
         UIData.timelineOneRoute: (BuildContext context) => TimelineOnePage(),
         UIData.timelineTwoRoute: (BuildContext context) => TimelineTwoPage(),
+        UIData.timelineThreeRoute: (BuildContext context) =>  ArticleOnePage(),
         //Search Result
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),
         //Setting
