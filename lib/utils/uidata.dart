@@ -6,20 +6,37 @@ import 'package:flutter/material.dart';
 class UIData {
   //routes
   static const String homeRoute = "/home";
+
+  //Profile Section
   static const String profileOneRoute = "/View Profile";
   static const String profileTwoRoute = "/Profile 2";
   static const String profileThreeRoute = "/Profile 3";
+  static const String profileFourRoute = "/Profile 4";
+
+  //Search Result Section
   static const String notFoundRoute = "/No Search Result";
+
+  //Timeline Section
   static const String timelineOneRoute = "/Feed";
   static const String timelineTwoRoute = "/Tweets";
+
+  //Setting Section
   static const String settingsOneRoute = "/Device Settings";
+
+  //Shopping Section
   static const String shoppingOneRoute = "/Shopping List";
   static const String shoppingTwoRoute = "/Shopping Details";
   static const String shoppingThreeRoute = "/Product Details";
+
+  //Payment Section
   static const String paymentOneRoute = "/Credit Card";
   static const String paymentTwoRoute = "/Payment Success";
+
+  //Login Section
   static const String loginOneRoute = "/Login With OTP";
   static const String loginTwoRoute = "/Login 2";
+
+  //Dashboard Section
   static const String dashboardOneRoute = "/Dashboard 1";
   static const String dashboardTwoRoute = "/Dashboard 2";
 
