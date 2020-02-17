@@ -20,7 +20,7 @@ class UIData {
   static const String timelineOneRoute = "/Feed";
   static const String timelineTwoRoute = "/Tweets";
   static const String timelineThreeRoute = "/Blog";
-  static const String timelineFourRoute = "/Timeline 4";
+  static const String timelineFourRoute = "/Blog 2";
 
 
   //Setting Section

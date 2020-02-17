@@ -25,6 +25,7 @@ import 'package:flutter_uikit/ui/page/timeline/timeline_two_page.dart';
 import 'package:flutter_uikit/utils/translations.dart';
 import 'package:flutter_uikit/utils/uidata.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:flutter_uikit/ui/page/timeline/timeline_four_page';
 
 class MyApp extends StatelessWidget {
   final materialApp = MaterialApp(
@@ -61,6 +62,7 @@ class MyApp extends StatelessWidget {
         UIData.timelineOneRoute: (BuildContext context) => TimelineOnePage(),
         UIData.timelineTwoRoute: (BuildContext context) => TimelineTwoPage(),
         UIData.timelineThreeRoute: (BuildContext context) =>  ArticleOnePage(),
+        UIData.timelineFourRoute: (BuildContext context) =>  BlogHomeOnePage(),
         //Search Result
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),
         //Setting
