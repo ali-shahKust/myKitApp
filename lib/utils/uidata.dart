@@ -25,6 +25,7 @@ class UIData {
 
   //Setting Section
   static const String settingsOneRoute = "/Device Settings";
+  static const String cartList1 = "/Cart List";
 
   //Shopping Section
   static const String shoppingOneRoute = "/Shopping List";

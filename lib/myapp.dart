@@ -16,6 +16,7 @@ import 'package:flutter_uikit/ui/page/profile/profile_four_page.dart';
 import 'package:flutter_uikit/ui/page/profile/profile_one_page.dart';
 import 'package:flutter_uikit/ui/page/profile/profile_three_page.dart';
 import 'package:flutter_uikit/ui/page/profile/profile_two_page.dart';
+import 'package:flutter_uikit/ui/page/settings/cart_list1.dart';
 import 'package:flutter_uikit/ui/page/settings/settings_one_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/product_detail_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_details_page.dart';
@@ -69,6 +70,7 @@ class MyApp extends StatelessWidget {
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),
         //Setting
         UIData.settingsOneRoute: (BuildContext context) => SettingsOnePage(),
+        UIData.cartList1: (BuildContext context) => CartOnePage(),
         //Shopping
         UIData.shoppingOneRoute: (BuildContext context) => ShoppingOnePage(),
         UIData.shoppingTwoRoute: (BuildContext context) => ShoppingDetailsPage(),

@@ -45,11 +45,11 @@ class MenuViewModel {
           image: UIData.dashboardImage,
           items: ["Dashboard 1", "Dashboard 2", "Dashboard 3", "Dashboard 4"]),
       Menu(
-          title: "Settings",
+          title: "Basket Ui",
           menuColor: Color(0xff2a8ccf),
-          icon: Icons.settings,
-          image: UIData.settingsImage,
-          items: ["Device Settings", "Settings 2", "Settings 3", "Settings 4"]),
+          icon: Icons.shopping_basket,
+          image: UIData.shoppingImage,
+          items: ["Device Settings", "Cart List 2", "Settings 3", "Settings 4"]),
       Menu(
           title: "No Item",
           menuColor: Color(0xffe19b6b),
