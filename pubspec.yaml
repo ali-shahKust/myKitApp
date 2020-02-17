@@ -21,6 +21,7 @@ dependencies:
   rxdart: ^0.21.0
   flutter_masked_text: ^0.8.0
   flutter_custom_clippers: ^1.1.0
+  flutter_swiper: ^1.1.6
   flutter_localizations:
     sdk: flutter
 
@@ -43,6 +44,8 @@ flutter:
   assets:
     - assets/images/
     - assets/img/
+    - assets/hotel/
+    - assets/food/
     - locale/i18n_en.json
     - locale/i18n_hi.json
   #  - images/a_dot_ham.jpeg

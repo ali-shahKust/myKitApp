@@ -46,6 +46,8 @@ class UIData {
   //Dashboard Section
   static const String dashboardOneRoute = "/Dashboard 1";
   static const String dashboardTwoRoute = "/Dashboard 2";
+  static const String dashboardThreeRoute = "/Dashboard 3";
+  static const String dashboardFourRoute = "/Dashboard 4";
 
   //strings
   static const String appName = "Flutter UIKit";

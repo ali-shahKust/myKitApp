@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_uikit/ui/page/dashboard/dashboard_one.page.dart';
 import 'package:flutter_uikit/ui/page/dashboard/dashboard_two_page.dart';
+import 'package:flutter_uikit/ui/page/dashboard/food_home_page.dart';
+import 'package:flutter_uikit/ui/page/dashboard/hotel_home_page.dart';
 import 'package:flutter_uikit/ui/page/home_page.dart';
 import 'package:flutter_uikit/ui/page/login/login_page.dart';
 import 'package:flutter_uikit/ui/page/login/login_two_page.dart';
@@ -85,6 +87,8 @@ class MyApp extends StatelessWidget {
         //Dashboard
         UIData.dashboardOneRoute: (BuildContext context) => DashboardOnePage(),
         UIData.dashboardTwoRoute: (BuildContext context) => DashboardTwoPage(),
+        UIData.dashboardThreeRoute: (BuildContext context) => HotelHomePage(),
+        UIData.dashboardFourRoute: (BuildContext context) => FoodDeliveryHomePage(),
       },
       onUnknownRoute: (RouteSettings rs) => new MaterialPageRoute(
           builder: (context) => new NotFoundPage(
