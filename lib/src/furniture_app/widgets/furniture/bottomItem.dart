@@ -1,4 +1,4 @@
-import 'package:flutter_ui_challenges/src/widgets/network_image.dart';
+import 'package:flutter_uikit/src/widgets/network_image.dart';
 
 import '../../utils/constant.dart';
 import '../../widgets/furniture/custom_side_button.dart';

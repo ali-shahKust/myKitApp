@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_ui_challenges/core/data/firestore_service.dart';
+import 'package:flutter_uikit/core/data/firestore_service.dart';
 
 class FavoriteFirestoreService {
   static final FavoriteFirestoreService _firestoreService  = FavoriteFirestoreService._internal();

@@ -1,4 +1,4 @@
-import 'package:flutter_ui_challenges/core/presentation/res/assets.dart';
+import 'package:flutter_uikit/core/presentation/res/assets.dart';
 
 import 'data/models/developer.dart';
 

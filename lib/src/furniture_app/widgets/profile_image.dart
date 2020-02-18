@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_challenges/src/furniture_app/utils/constant.dart';
+import 'package:flutter_uikit/src/furniture_app/utils/constant.dart';
 
 class ProfileImage extends StatelessWidget {
   final double height, width;

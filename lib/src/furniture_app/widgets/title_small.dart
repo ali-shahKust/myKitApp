@@ -3,7 +3,7 @@
  * profile: https://github.com/mausamRayamajhi
   */
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_challenges/src/furniture_app/utils/constant.dart';
+import 'package:flutter_uikit/src/furniture_app/utils/constant.dart';
 
 class TitleSmall extends StatelessWidget {
   final String title, subTitle;
