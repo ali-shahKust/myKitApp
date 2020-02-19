@@ -76,18 +76,21 @@ class CartOnePage extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      top: 20,
-                      right: 15,
+                      top: 0,
+                      right: 20,
                       child: Container(
                         height: 30,
                         width: 30,
-                        alignment: Alignment.center,
+                        alignment: Alignment.topRight,
                         child: MaterialButton(
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
                           padding: EdgeInsets.all(0.0),
                           color: Colors.pinkAccent,
                           child: Icon(Icons.clear, color: Colors.white,),
-                          onPressed: () {},
+                          onPressed: () {
+                            final snackBar = SnackBar(content: Text('Cross Button Clicked!'));
+                            Scaffold.of(context).showSnackBar(snackBar);
+                          },
                         ),
                       ),
                     )
@@ -136,4 +139,6 @@ class CartOnePage extends StatelessWidget {
       ),
     );
   }
+
+
 }
